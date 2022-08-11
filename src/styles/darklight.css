@@ -1,0 +1,20 @@
+.cicle {
+  display: flex;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.light {
+  visibility: hidden;
+  
+  
+}
+.dark {
+  position: absolute;
+  
+
+}
+
+.darkTwo {
+  visibility: hidden;
+}
+
