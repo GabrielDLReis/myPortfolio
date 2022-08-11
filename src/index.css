@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  box-sizing: content-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif
+}
+
+html {
+  background-color: #fff;
+}
+
+p {
+  font-family: 'Libre Bodoni' ;
+  font-size: 1.2em;
+  font-style: italic;
+}
