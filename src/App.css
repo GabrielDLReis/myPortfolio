@@ -1,0 +1,48 @@
+.App, .b {
+  background-color: white;
+  color: black;
+  
+  
+}
+
+.AppTwo, .a{
+  background-color: rgb(21, 20, 20);
+  color: white;
+  
+  
+}
+
+
+.lightOn {
+  
+  cursor: pointer;
+  fill: white;
+  stroke: white;
+}
+
+
+.cicle {
+  display: flex;
+  }
+
+.darkOne {
+  
+  cursor: pointer;
+
+}
+
+.darkTwo {
+  visibility: hidden;
+}
+
+
+.lightOff {
+  cursor: pointer;
+  
+}
+
+footer {
+  height: 3em;
+  margin-top: 10em;
+  background-color: rgb(21, 20, 20);
+}
