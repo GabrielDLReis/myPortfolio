@@ -35,8 +35,16 @@
 
 }
 
-.backFromImg {
+.black {
   border: 1px solid black;
+  width: 16em;
+  height: 8em;
+  border-radius: 4px;
+  margin-bottom: 3em;
+}
+
+.white {
+  border: 1px solid white;
   width: 16em;
   height: 8em;
   border-radius: 4px;

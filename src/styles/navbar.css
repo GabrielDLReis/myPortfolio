@@ -15,16 +15,21 @@ li {
   
 }
 
-.a, .b {
+.a {
   text-decoration: none;
-  color: rgb(19, 19, 19);
+  color: #fff;
   font-weight: 600;
   font-size: .8em;
   
 }
+.b {
+  text-decoration: none;
+  color: rgb(19, 19, 19);
+  font-weight: 600;
+  font-size: .8em;
+}
 
 .a:hover {
-  
   color: rgb(110, 107, 107);
 }
 
