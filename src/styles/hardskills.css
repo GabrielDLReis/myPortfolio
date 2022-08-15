@@ -1,0 +1,16 @@
+.hardSkillsOff {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 8em;
+
+  color: black;
+}
+.hardSkillsOn {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 8em;
+  
+  color: white;
+}
