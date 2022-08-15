@@ -14,31 +14,26 @@
 
 
 .lightOn {
-  
+  margin-left: .5em;
+  margin-top: .5em;
   cursor: pointer;
   fill: white;
   stroke: white;
 }
 
+.lightOff {
+  cursor: pointer;
+  margin-left: .5em;
+  margin-top: .5em;
+}
 
 .cicle {
   display: flex;
+  
   }
 
-.darkOne {
-  
-  cursor: pointer;
-
-}
-
-.darkTwo {
-  visibility: hidden;
-}
 
 
-.lightOff {
-  cursor: pointer;
-  
-}
+
 
 

@@ -3,6 +3,7 @@ import '../styles/background.css'
 import '../styles/topcontent.css'
 import '../styles/navbar.css'
 import '../styles/myprojects.css'
+import "../styles/hardskills.css"
 
 import NavBar from './NavBar'
 import TopContent from './TopContent'
@@ -22,8 +23,9 @@ function Layouts({themeChanger} : Props) {
     <TopContent themeChanger={themeChanger}/>
     <BackgroundImage />
     <MyProjects themeChanger={themeChanger}/>
-    <HardSkills />
+    <HardSkills themeChanger={themeChanger}/>
     <Footer themeChanger={themeChanger}/>
+    {/* < themeChanger={themeChanger}/> */}
 
 
   </div>
