@@ -12,19 +12,26 @@
   
 }
 
-.containerImages {
-  display: flex;
-  justify-content: center;
-}
 
-.grid {
-  display: grid;
-  gap: 10em;
-  grid-template-columns: repeat(3, 1fr)
+
+.black {
+  border: 1px solid black;
+  width: 16em;
+  height: 8em;
+  border-radius: 4px;
+  margin-bottom: 3em;
   
 }
 
-.imageProjects {
+.white {
+  border: 1px solid white;
+  width: 16em;
+  height: 8em;
+  border-radius: 4px;
+  margin-bottom: 3em;
+}
+
+.imageProject {
   width: 16em;
   height: 8em;
   margin-left: 1em;
@@ -35,18 +42,12 @@
 
 }
 
-.black {
-  border: 1px solid black;
-  width: 16em;
-  height: 8em;
-  border-radius: 4px;
-  margin-bottom: 3em;
+.titleOfProjects {
+  display: flex;
+  justify-content: left;
 }
 
-.white {
-  border: 1px solid white;
-  width: 16em;
-  height: 8em;
-  border-radius: 4px;
-  margin-bottom: 3em;
+.textOfProject {
+  display: flex;
+  justify-content: left;
 }
