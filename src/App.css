@@ -1,13 +1,14 @@
 .App, .b {
   background-color: white;
   color: black;
-  
+  width: max-content;
   
 }
 
 .AppTwo, .a{
   background-color: rgb(21, 20, 20);
   color: white;
+  width: max-content;
   
   
 }

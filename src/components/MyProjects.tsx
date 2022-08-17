@@ -10,6 +10,7 @@ interface Props {
 }
 
 function MyProjects ({imageProject, text, title, themeChanger} : Props) {
+  
   return <div className="gridTest">
     
     

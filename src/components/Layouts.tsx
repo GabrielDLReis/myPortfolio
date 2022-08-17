@@ -12,7 +12,7 @@ import BackgroundImage from './BackgroundImage'
 
 import HardSkills from "./HardSkills"
 import Footer from "./Footer"
-import MyTestProjects from "./myTestProjects"
+import SubProjects from "./SubProjects"
 
 
 interface Props {
@@ -24,7 +24,7 @@ function Layouts({themeChanger} : Props) {
     <NavBar aButton={themeChanger}/>
     <TopContent themeChanger={themeChanger}/>
     <BackgroundImage />
-    <MyTestProjects themeChanger={themeChanger} backgroundLow={backgroundLow}/>
+    <SubProjects themeChanger={themeChanger} backgroundLow={backgroundLow}/>
     <HardSkills themeChanger={themeChanger}/>
     <Footer themeChanger={themeChanger}/>
     {/* < themeChanger={themeChanger}/> */}
